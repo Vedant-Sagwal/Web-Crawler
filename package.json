@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "run": "node main.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vedant-Sagwal",
   "license": "ISC",
-  "description": "A web-crawler"
+  "description": "A web-crawler",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
